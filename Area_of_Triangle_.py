@@ -1,4 +1,5 @@
-a,b,c=map(float,input().split())
+import math
+a,b,c=map(int,input().split())
 s=(a+b+c)/2.0
-ar=(s*(s-a)*(s-b)*(s-c))**0.5
-print("%0.2f"%ar)
+area=(s*(s-a)*(s-b)*(s-c))**(1/2)
+print("%0.2f"%area)
