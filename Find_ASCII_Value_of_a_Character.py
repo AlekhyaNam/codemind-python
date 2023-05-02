@@ -1,2 +1,3 @@
-ch=input()
-print(ord(ch))
+s=input()
+p=ord(s)
+print(p)
